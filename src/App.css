@@ -1,0 +1,259 @@
+.container {
+  width: 100%;
+}
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Cards of styles */
+.card {
+  width: 280px;
+  border: 1px solid #000000;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_content h2 {
+  font-size: 20px;
+  padding: 0px 15px;
+}
+.card_content p {
+  padding: 0px 15px;
+}
+.btn_cards {
+  margin: 0px 15px 15px;
+  padding: 10px 10px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #1e90ff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_cards:hover {
+  background-color: #0000ff;
+}
+.btn_cards:focus {
+  box-shadow: 0 0 5px 5px rgba(0, 191, 255, 0.6);
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Decomposition of styles */
+.wrapper_box {
+  max-width: 1170px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adv_box {
+  position: relative;
+  bottom: 50px;
+  left: 610px;
+}
+.news_box__header {
+  display: flex;
+}
+.news_box__title {
+  color: #0000ff;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.news_box__title:first-child {
+  margin-left: 30px;
+}
+.news_box__title:nth-child(n + 2) {
+  color: #1e90ff;
+}
+.news_box__date {
+  color: #808080;
+}
+.new_link {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+.new_title {
+  background-image: url("../public/favicon.ico");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-left: 30px;
+}
+.financial_news {
+  display: flex;
+  margin-left: 30px;
+}
+.financial_news::after {
+  content: "...";
+  display: block;
+  position: relative;
+  bottom: 5px;
+  color: #808080;
+  font-weight: bold;
+}
+.fin_title {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.fin_cource {
+  padding-right: 5px;
+}
+.fin_change {
+  color: #808080;
+  margin-right: 10px;
+}
+.adv_preview {
+  background-image: url("../public/favicon.ico");
+  background-repeat: no-repeat;
+  background-size: 62px;
+  position: relative;
+  bottom: 30px;
+  padding-left: 62px;
+  padding-top: 41px;
+  border-radius: 39px;
+}
+.adv_link {
+  display: block;
+  color: #0000ff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -20px;
+}
+.search_block {
+  margin-left: 30px;
+}
+.search_categories {
+  margin-bottom: 10px;
+}
+.search_category__link {
+  color: #4169e1;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.search_category__link:last-child {
+  padding-right: 0px;
+}
+.search_example {
+  font-weight: bold;
+}
+.search_example__link {
+  color: #808080;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.logo {
+  text-decoration: none;
+  font-size: 40px;
+  color: #000000;
+  position: absolute;
+  top: 1090px;
+  left: 270px;
+  letter-spacing: -3px;
+}
+.logo:first-letter {
+  color: #ff0000;
+}
+.search_input__field {
+  width: 800px;
+  height: 35px;
+  outline: none;
+  border: 1px solid #fc0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.search_input__field:focus {
+  height: 40px;
+  background-color: #f5f5f5;
+  border: none;
+}
+.search_btn {
+  position: relative;
+  right: 60px;
+  background-color: #fc0;
+  padding: 11px;
+  color: #000000;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.search_btn:hover {
+  opacity: 0.8;
+}
+.banner {
+  width: 750px;
+  height: 100px;
+  background-color: #000000;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: #f5f5f5;
+  text-align: center;
+}
+.articles_box {
+  margin-left: 30px;
+}
+.article_title {
+  color: #4169e1;
+}
+.article_content.weather {
+  display: flex;
+}
+.weather_preview {
+  background-image: url("../public/favicon.ico");
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: 50px;
+}
+.weather_temp {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.start_temp {
+  display: block;
+}
+.article_item:nth-child(3) {
+  position: relative;
+  bottom: 240px;
+  left: 305px;
+}
+.article_item:nth-child(4) {
+  position: relative;
+  bottom: 230px;
+  left: 305px;
+}
+.article_item:nth-child(5) {
+  position: relative;
+  bottom: 450px;
+  left: 580px;
+}
+.visited_item span:nth-child(1) {
+  color: #000000;
+  font-weight: bold;
+}
+.tv_item {
+  font-weight: bold;
+}
+.tv_item span:nth-child(1) {
+  font-weight: lighter;
+}
+.tv_item span:nth-child(3) {
+  font-weight: lighter;
+  color: #808080;
+}
+.ether_item {
+  font-weight: bold;
+}
+.ether_item span:last-child {
+  font-weight: lighter;
+  color: #808080;
+}
